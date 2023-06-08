@@ -9,6 +9,11 @@
 
 I went with minimal API setup since it's 'quick to spin up and easy to read (if you're a reviewer). I also wanted to showcase knowledge on some of the newer features of .NET. Of course, on a bigger project I would've went with the normal ASP.NET controller setup, but for this task it seemed redundant.
 
+The two endpoints are:
+
+- `/galleries` for the merge operation
+- `/gallery/{userId}` for filtering by userId:w
+
 I've put everything in a single project in the interest of saving time. I also haven't added Swagger or anything else too fancy. Usually I'll have different projects for different layers like services, infrastructure, domain etc.
 
 I've added basic tests around the major components of the API.
