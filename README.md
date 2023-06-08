@@ -12,7 +12,7 @@ I went with minimal API setup since it's 'quick to spin up and easy to read (if 
 The two endpoints are:
 
 - `/galleries` for the merge operation
-- `/gallery/{userId}` for filtering by userId:w
+- `/gallery/{userId}` for filtering by userId
 
 I've put everything in a single project in the interest of saving time. I also haven't added Swagger or anything else too fancy. Usually I'll have different projects for different layers like services, infrastructure, domain etc.
 
