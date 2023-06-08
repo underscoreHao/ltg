@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveTixGroup.API", "LiveTixGroup.API\LiveTixGroup.API.csproj", "{902ADF5D-053C-4EBB-9A7D-698718FD778D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveTixGroup.API.Tests", "LiveTixGroup.API.Tests\LiveTixGroup.API.Tests.csproj", "{9A242FA9-A413-4B56-A45D-DEB7D7FA8C95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{902ADF5D-053C-4EBB-9A7D-698718FD778D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902ADF5D-053C-4EBB-9A7D-698718FD778D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902ADF5D-053C-4EBB-9A7D-698718FD778D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902ADF5D-053C-4EBB-9A7D-698718FD778D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A242FA9-A413-4B56-A45D-DEB7D7FA8C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A242FA9-A413-4B56-A45D-DEB7D7FA8C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A242FA9-A413-4B56-A45D-DEB7D7FA8C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A242FA9-A413-4B56-A45D-DEB7D7FA8C95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
